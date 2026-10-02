@@ -1,0 +1,18 @@
+# Core (labs, tests, generators)
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+opencv-contrib-python>=4.8      # ArUco lives in contrib
+pillow
+jupyterlab
+pytest
+# Robotics Toolbox for Python (RVC3) - used by the notebooks; the generators and tests do not need it
+roboticstoolbox-python
+spatialmath-python
+swift-sim
+# Hardware
+dynamixel-sdk
+pyserial                        # finds the OpenRB-150 port (omx.find_port)
+pygrabber; sys_platform == 'win32'   # camera by name on Windows (omx_camera.find_camera)
+# Digital twin (optional for the generators; required for sim_smoke_test.py, Labs 7-9 twin cells, starter Part D)
+mujoco>=3.1

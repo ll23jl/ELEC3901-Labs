@@ -1,0 +1,14 @@
+# ELEC3901 conda environment. Create once per computer:
+#     conda env create -f environment.yml
+#     conda activate elec3901
+# Update after a lab adds a package:
+#     conda env update -f environment.yml
+name: elec3901
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt

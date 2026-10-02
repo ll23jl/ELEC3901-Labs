@@ -1,0 +1,9 @@
+{
+    "python.terminal.activateEnvironment": true,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "git.autofetch": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.ipynb_checkpoints": true
+    }
+}
